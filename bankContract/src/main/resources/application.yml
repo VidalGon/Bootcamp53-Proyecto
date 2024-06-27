@@ -1,0 +1,18 @@
+server:
+  port: 8092
+
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/BankContractDB
+
+dato:
+  typeCustomer:
+    a1: personal
+    a2: Empresarial
+  typeProduct:
+    b1: "Cuenta de ahorro"
+    b2: "Cuanta Corriente"
+    b3: "Plazo fijo"      
